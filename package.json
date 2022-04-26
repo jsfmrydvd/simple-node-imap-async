@@ -1,0 +1,27 @@
+{
+  "name": "simple-node-imap-async",
+  "version": "1.0.2",
+  "description": "Updated version of simple-node-imap module handling async messages in Node.js.",
+  "directories": {
+    "lib": "lib"
+  },
+  "deprecated": false,
+  "bundleDependencies": false,
+  "dependencies": {
+    "imap": "^0.8.19",
+    "mailparser": "^2.7.7"
+  },
+  "keywords": [
+    "mail",
+    "job",
+    "imap",
+    "mail listener",
+    "email",
+    "email parser"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT"
+}
