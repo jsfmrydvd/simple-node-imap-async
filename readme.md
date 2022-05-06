@@ -1,7 +1,21 @@
 # Overview
+Base package simple-node-imap
 
-Original package https://www.npmjs.com/package/simple-node-imap
+`Version 1.0.0`
 Adding async/await when fetching of messages
+
+`Version 1.0.4`
+
+Adding fix to handle multiple emails being read at the same time.
+
+Adding Boolean values to store new variables:
+
+`isInstanceSkipped = Boolean`
+- This will identify if an existing event was skipped
+`isInstanceRunning = Boolean`
+- This will identify if an existing event is already running
+`instances = Array`
+- This will store instances(mail) that is currently being processed
 
 ## Use
 
@@ -15,9 +29,9 @@ JavaScript Code:
 
 ```javascript
 
-var SimpleImapAsync = require("simple-node-imap-async");
+const SimpleImapAsync = require("simple-node-imap-async");
 
-var simpleImapAsync = new SimpleImapAsync({
+const simpleImapAsync = new SimpleImapAsync({
   username: "imap-username",
   password: "imap-password",
   host: "imap-host",
@@ -50,7 +64,6 @@ simpleImapAsync.on("error", err => {
   console.log(err);
 });
 
-//
 simpleImapAsync.on("message", message => {
   console.log(message);
 });
