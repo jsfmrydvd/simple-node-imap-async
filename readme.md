@@ -10,12 +10,12 @@ Adding fix to handle multiple emails being read at the same time.
 
 Adding Boolean values to store new variables:
 
-`isInstanceSkipped = Boolean`
-- This will identify if an existing event was skipped
-`isInstanceRunning = Boolean`
-- This will identify if an existing event is already running
-`instances = Array`
-- This will store instances(mail) that is currently being processed
+
+- This will identify if an existing event was skipped `isInstanceSkipped = Boolean`
+
+- This will identify if an existing event is already running `isInstanceRunning = Boolean`
+
+- This will store instances(mail) that is currently being processed `instances = Array`
 
 ## Use
 
