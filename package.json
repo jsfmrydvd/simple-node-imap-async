@@ -1,6 +1,6 @@
 {
   "name": "simple-node-imap-async",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Updated version of simple-node-imap module handling async messages in Node.js.",
   "directories": {
     "lib": "lib"

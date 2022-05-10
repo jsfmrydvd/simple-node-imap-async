@@ -17,7 +17,7 @@ Adding Boolean values to store new variables:
 
 - This will store instances(mail) that is currently being processed `instances = Array`
 
-`Version 1.0.5`
+`Version 1.0.6`
 
 - Adding xoauth2. (less-secure-apps won't be supported with google anymore by the end of May 2022)
 ## Use
@@ -35,7 +35,7 @@ JavaScript Code:
 const SimpleImapAsync = require("simple-node-imap-async");
 
 const simpleImapAsync = new SimpleImapAsync({
-  xoauth2: "xoauth2"
+  xoauth2: "xoauth2",
   username: "imap-username", // Will be deprecated on May 30, 2022
   password: "imap-password", // Will be deprecated on May 30, 2022
   host: "imap-host",
